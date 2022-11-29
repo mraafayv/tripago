@@ -6,7 +6,7 @@ import "./TripList.css";
 
 export default function TripList() {
   // const [trips, setTrips] = useState([]);
-  const [url, setUrl] = useState("http://localhost:3000/trips32");
+  const [url, setUrl] = useState("http://localhost:3000/trips");
 
   const { data: trips, isPending, error } = useFetch(url);
   return (
@@ -33,7 +33,7 @@ export default function TripList() {
           <button
             onClick={() => setUrl("http://localhost:3000/trips?loc=america")}
           >
-            US Trips{" "}
+            US Trips
           </button>
         </div>
       </div>

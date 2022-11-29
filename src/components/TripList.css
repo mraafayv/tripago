@@ -41,9 +41,12 @@
     background-color: white;
     padding: 8px;
     border-radius: 4px;
+    transition: 0.5s;
 }
 
 .filters button:hover{
     background-color: rgb(1, 13, 143);
     color: white;
+    transition: 0.5s;
+
 }
