@@ -1,0 +1,49 @@
+
+#heading {
+    text-align: center;
+    font-size: 36px;
+}
+
+.trip-card {
+    border: 1px solid rgb(235, 235, 235);
+    box-shadow: 1px 3px 6px rgb(211, 211, 211);
+    border-radius: 8px;
+    /* width: 50%; */
+    margin-bottom: 16px;
+    padding: 0px 20px;
+}
+
+.trip-card:hover{
+    background-color: rgb(244, 245, 255);
+    box-shadow: 1px 3px 8px rgb(200, 200, 200);
+}
+
+.price {
+    color:rgb(89, 0, 255)
+}
+
+.loc{
+    color:rgb(150, 150, 150)
+}
+
+.filters {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    /* margin: 4px; */
+}
+
+.filters button {
+    cursor: pointer;
+    color: rgb(1, 13, 143);
+    border: 1px solid rgb(1, 13, 143);
+    background-color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.filters button:hover{
+    background-color: rgb(1, 13, 143);
+    color: white;
+}
